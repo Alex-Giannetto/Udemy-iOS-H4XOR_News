@@ -11,6 +11,10 @@
 		FA8DB61F2546236F003C2C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB61E2546236F003C2C2C /* ContentView.swift */; };
 		FA8DB62125462371003C2C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8DB62025462371003C2C2C /* Assets.xcassets */; };
 		FA8DB62425462371003C2C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8DB62325462371003C2C2C /* Preview Assets.xcassets */; };
+		FA8DB62E254625C7003C2C2C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB62D254625C7003C2C2C /* NetworkManager.swift */; };
+		FA8DB6322546270D003C2C2C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB6312546270D003C2C2C /* PostData.swift */; };
+		FA8DB63925462E15003C2C2C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB63825462E15003C2C2C /* DetailView.swift */; };
+		FA8DB63C2546311D003C2C2C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB63B2546311D003C2C2C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		FA8DB62025462371003C2C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8DB62325462371003C2C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA8DB62525462371003C2C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8DB62D254625C7003C2C2C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA8DB6312546270D003C2C2C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		FA8DB63825462E15003C2C2C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FA8DB63B2546311D003C2C2C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		FA8DB61B2546236F003C2C2C /* Udemy-iOS-H4XOR_News */ = {
 			isa = PBXGroup;
 			children = (
+				FA8DB63425462DF9003C2C2C /* Views */,
+				FA8DB62C254625AF003C2C2C /* Models */,
 				FA8DB61C2546236F003C2C2C /* Udemy_iOS_H4XOR_NewsApp.swift */,
-				FA8DB61E2546236F003C2C2C /* ContentView.swift */,
 				FA8DB62025462371003C2C2C /* Assets.xcassets */,
 				FA8DB62525462371003C2C2C /* Info.plist */,
 				FA8DB62225462371003C2C2C /* Preview Content */,
@@ -67,6 +76,25 @@
 				FA8DB62325462371003C2C2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8DB62C254625AF003C2C2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DB62D254625C7003C2C2C /* NetworkManager.swift */,
+				FA8DB6312546270D003C2C2C /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA8DB63425462DF9003C2C2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DB61E2546236F003C2C2C /* ContentView.swift */,
+				FA8DB63825462E15003C2C2C /* DetailView.swift */,
+				FA8DB63B2546311D003C2C2C /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8DB62E254625C7003C2C2C /* NetworkManager.swift in Sources */,
+				FA8DB6322546270D003C2C2C /* PostData.swift in Sources */,
 				FA8DB61F2546236F003C2C2C /* ContentView.swift in Sources */,
+				FA8DB63C2546311D003C2C2C /* WebView.swift in Sources */,
+				FA8DB63925462E15003C2C2C /* DetailView.swift in Sources */,
 				FA8DB61D2546236F003C2C2C /* Udemy_iOS_H4XOR_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
